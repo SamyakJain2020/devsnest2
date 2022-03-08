@@ -1,0 +1,90 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: #eae3dc; */
+}
+.body-dark {
+  @apply bg-[#3a4764];
+}
+.body-light {
+  @apply bg-[#f5f5f5];
+}
+.body-neon {
+  @apply bg-[#160628];
+}
+.calc-dark {
+  @apply bg-[#242c42];
+}
+.calc-light {
+  @apply bg-[#d1cccc];
+}
+.calc-neon{
+  @apply bg-[#1d0934];
+}
+.btn-dark {
+  @apply font-bold py-2 m-4 px-8 rounded flex justify-center text-center;
+  @apply bg-[#eae3dc];
+  font-size: 32px;
+}
+.btn-light {
+  @apply font-bold py-2 m-4 px-8 rounded flex justify-center text-center;
+  @apply bg-[#e5e4e1];
+  font-size: 32px;
+}
+.btn-neon {
+  @apply font-bold py-2 m-4 px-8 rounded flex justify-center text-center;
+  @apply bg-[#58077d] text-white;
+  font-size: 32px;
+}
+.btn-dark:hover {
+  @apply bg-[#3a4764];
+  @apply text-white;
+}
+.btn-light:hover {
+  @apply bg-[#35352c];
+  @apply text-white;
+}
+.btn-neon:hover {
+  @apply bg-[#160628];
+  @apply text-white;
+}
+.screen-dark {
+  @apply bg-[#242c42]  text-white;
+  @apply rounded-lg flex justify-end text-center p-4 m-4;
+}
+.screen-light {
+  @apply bg-[#d1cccc]  text-black;
+  @apply rounded-lg flex justify-end text-center p-4 m-4;
+}
+.screen-neon {
+  @apply bg-[#1d0934]  text-white;
+  @apply rounded-lg flex justify-end text-center p-4 m-4;
+}
+.nav {
+  @apply flex justify-around text-center;
+  @apply p-4;
+}
+.nav-dark {
+  @apply text-white;
+}
+.nav-light {
+  @apply text-black;
+}
+.nav-neon {
+  @apply text-white;
+}
+.nav button {
+  @apply font-bold py-1 px-4 ml-2 rounded;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
